@@ -1,0 +1,46 @@
+// -*- mode: jsonc -*-
+{
+  "height": 30,
+  "spacing": 15,
+
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["cpu", "memory", "network"],
+
+  // Module config
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "persistent-workspaces": {
+      "DP-1": [1, 2, 3, 4, 5, 6],
+      "HDMI-A-1": [7, 8, 9],
+    },
+    "format-icons": {
+      "active": "󰮯",
+      "default": "󰊠",
+    },
+  },
+  "cpu": {
+    "interval": 2,
+    "format": "  {usage}%",
+  },
+  "memory": {
+    "interval": 2,
+    "format": "  {percentage}%",
+  },
+  "clock": {
+    "interval": 2,
+    "format": "  {:%H:%M}",
+  },
+  "network": {
+    "interval": 2,
+    "format": "  {bandwidthTotalBytes}",
+  },
+  /*
+  "custom/spotify": {
+    "exec": "/usr/bin/python3 /home/sqzume/.config/waybar/mediaplayer.py --player spotifyd",
+    "format": "  {}",
+    "return-type": "json",
+  },
+  */
+}
+

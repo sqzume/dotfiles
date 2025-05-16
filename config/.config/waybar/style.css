@@ -1,0 +1,107 @@
+/*
+ *          ╭─────────────────────────────────────────────────────────╮
+ *          │                  waybar css by sqzume                   │
+ *          ╰─────────────────────────────────────────────────────────╯
+*/
+
+* {
+  border: none;
+  font-size: 14px;
+  font-family: "Symbols Nerd Font", "CommitMono", "Noto Sans CJK JP" ;
+  min-height: 15px;
+  /* color: #c6d0f5;*/
+}
+
+window#waybar {
+  background: transparent;
+}
+
+/*
+ *    ─────────────────────────────── modules ───────────────────────────────
+*/
+
+.modules-right {
+  padding: 0 10px;
+  border-radius: 15px 15px 15px 15px;
+  margin-top: 5px;
+  margin-right: 5px;
+  background: #232634;
+}
+
+.modules-center {
+  padding: 0 10px;
+  margin-top: 5px;
+  border-radius: 15px 15px 15px 15px;
+  background: #232634;
+}
+
+.modules-left {
+  padding: 0 10px;
+  border-radius: 15px 15px 15px 15px;
+  margin-top: 5px;
+  margin-left: 5px;
+  background: #232634;
+}
+
+/*
+ *    ──────────────────────────────── clock ────────────────────────────────
+*/
+
+#clock {
+  color: #e78284;
+  font-weight: bold;
+}
+/*
+#cpu,
+#memory,
+#network {
+  margin-top: 5px;
+  padding: 0 10px;
+  background: #232634;
+}
+*/
+
+#cpu {
+  color: #a6d189;
+  border-radius: 15px 0px 0px 15px;
+}
+
+#memory {
+  color: #ca9ee6;
+}
+
+#network {
+  color: #99d1db;
+  /*
+  margin-right: 5px;
+  border-radius: 0px 15px 15px 0px;
+  */
+}
+
+/*
+ *    ───────────────────────────── workspaces ────────────────────────────
+*/
+
+#workspaces button {
+  color: #c6d0f5;
+}
+
+#workspaces button.active {
+  color: #e5c890;
+}
+
+/*
+ *    ─────────────────────────────── spotify ───────────────────────────────
+*/
+
+/*
+#custom-spotify {
+  margin-top: 5px;
+  padding-left: 10px;
+  padding-right: 20px;
+  border-radius: 15px 0px 0px 15px;
+  background: #a6d189;
+  color: #232634;
+}
+*/
+
