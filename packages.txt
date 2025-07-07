@@ -6,6 +6,8 @@ zed
 sddm
 firefox
 obsidian
+discord
+thunderbard
 pavucontrol
 
 # --- CUI ---
@@ -27,6 +29,11 @@ noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
 ttf-nerd-fonts-symbols
+fcitx5-im
 
 # ===== AUR packages =====
 aur:walker-bin
+aur:anki-bin
+aur:youtube-music-bin
+aur:google-chrome
+aur:fcitx5-mozc-ut
