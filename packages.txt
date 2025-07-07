@@ -1,0 +1,32 @@
+# ===== Official packages =====
+# --- GUI ---
+hyprland
+kitty
+zed
+sddm
+firefox
+obsidian
+pavucontrol
+
+# --- CUI ---
+github-cli
+reflector
+fish
+yazi
+
+# --- System ---
+nvidia-open
+pipewire
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
+uwsm
+
+# --- Others ---
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+ttf-nerd-fonts-symbols
+
+# ===== AUR packages =====
+aur:walker-bin
