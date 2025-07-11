@@ -7,7 +7,7 @@ sddm
 firefox
 obsidian
 discord
-thunderbard
+thunderbird
 pavucontrol
 
 # --- CUI ---
