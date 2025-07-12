@@ -8,5 +8,6 @@
 
   // ===== Options =====
   "vim_mode": true,
-  "relative_line_numbers": true
+  "relative_line_numbers": true,
+  "restore_on_startup": "none"
 }
