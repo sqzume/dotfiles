@@ -1,0 +1,15 @@
+[
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      "ctrl-l": "vim::Right",
+      "ctrl-j": "vim::Down"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "ctrl-t": "task::Spawn"
+    }
+  }
+]
