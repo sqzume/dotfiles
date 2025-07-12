@@ -1,0 +1,12 @@
+{
+  // ===== UI =====
+  "ui_font_family": "CommitMono",
+  "ui_font_size": 16,
+  "buffer_font_family": "CommitMono",
+  "buffer_font_size": 16,
+  "theme": "Catppuccin Frappé - No Italics",
+
+  // ===== Options =====
+  "vim_mode": true,
+  "relative_line_numbers": true
+}
