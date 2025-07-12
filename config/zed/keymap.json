@@ -9,7 +9,18 @@
   {
     "context": "Editor && vim_mode == normal",
     "bindings": {
-      "ctrl-t": "task::Spawn"
+      "ctrl-alt-t": ["task::Spawn", { "task_name": "Test" }],
+      "ctrl-alt-s": ["task::Spawn", { "task_name": "Submit" }],
+      "ctrl-alt-r": ["task::Spawn", { "task_name": "Replace main.cpp" }]
+    }
+  },
+  {
+    "context": "Dock",
+    "bindings": {
+      "ctrl-w h": "workspace::ActivatePaneLeft",
+      "ctrl-w l": "workspace::ActivatePaneRight",
+      "ctrl-w k": "workspace::ActivatePaneUp",
+      "ctrl-w j": "workspace::ActivatePaneDown"
     }
   }
 ]
