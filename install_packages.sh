@@ -69,7 +69,7 @@ install_official_packages() {
     done
 
     if [[ ${#to_install[@]} -gt 0 ]]; then
-        sudo pacman -S --needed --noconfirm "${to_install[@]}"
+        sudo pacman -S --needed "${to_install[@]}"
         print_success "Official packages installed successfully"
     else
         print_info "All official packages are already installed"
@@ -100,7 +100,7 @@ install_aur_packages() {
     fi
 
     print_info "Installing AUR packages: ${packages[*]}"
-    paru -S --needed --noconfirm "${packages[@]}"
+    paru -S --needed "${packages[@]}"
     print_success "AUR packages installed successfully"
 }
 
